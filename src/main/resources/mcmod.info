@@ -1,0 +1,16 @@
+[
+{
+  "modid": "advancementcriterion",
+  "name": "Advancement Criterion",
+  "description": "Adds an objective criterion for tracking when a player unlocks an advancement.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Insomnia_Wins"],
+  "credits": "Me (Insomnia_Wins)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
