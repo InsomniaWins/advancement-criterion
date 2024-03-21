@@ -1,20 +1,14 @@
-## TemplateDevEnv
+## Advancement Criterion
 
-Template workspace for modding Minecraft 1.12.2. Licensed under MIT, it is made for public use.
+Mod which adds an advancement criterion for the scoreboard system in Minecraft Forge 1.12.2.
 
-This template currently utilizies **Gradle 8.1.1** + **[RetroFuturaGradle](https://github.com/GTNewHorizons/RetroFuturaGradle) 1.3.27** + **Forge 14.23.5.2847**.
 
-With **coremod and mixin support** that is easy to configure.
+### How to Install from source:
+1. Download/clone source.
+2. Open build.gradle in IntelliJ to import as a gradle project.
+3. Run the 'build' gradle task to build a jar file of the mod.
+4. Add the jar file to your 'mods' folder.
 
-### Instructions:
-
-1. Click `use this template` at the top.
-2. Clone the repository you have created with this template.
-3. In the local repository, run the command `gradlew setupDecompWorkspace`
-4. Open the project folder in IDEA.
-5. Right-click in IDEA `build.gradle` of your project, and select `Link Gradle Project`, after completion, hit `Refresh All` in the gradle tab on the right.
-6. Run `gradlew runClient` and `gradlew runServer`, or use the auto-imported run configurations in IntelliJ like `1. Run Client`.
-
-### Mixins:
-
-- When writing Mixins on IntelliJ, it is advisable to use latest [MinecraftDev Fork for RetroFuturaGradle](https://github.com/eigenraven/MinecraftDev/releases).
+### How to use:
+1. Run the command /scoreboard objectives add "Objective Name" advancement
+2. You now have an objective called "Objective Name" which tracks advancement completion per player.
